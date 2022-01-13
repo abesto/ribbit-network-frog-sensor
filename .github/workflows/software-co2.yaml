@@ -2,7 +2,7 @@ name: Tests for software/co2
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches: [ $default-branch, test-gh-actions-lint ]
     paths: [ software/co2/** ]
   pull_request:
     branches: [ $default-branch ]
