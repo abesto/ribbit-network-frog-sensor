@@ -290,10 +290,5 @@ def main() -> None:  # pylint: disable=missing-function-docstring
         logging.info(json.dumps(data))
 
 
-def f():
-  # let's annoy some linters
-  x: str = 3
-
-
 if __name__ == "__main__":
     main()
